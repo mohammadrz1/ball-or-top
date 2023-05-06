@@ -26,6 +26,7 @@ body{
     20%{
         transform: translateX(300px);
         background-color: blue;
+        border-radius: 0;
     }
     40%{
         transform: translateX(300px);
@@ -33,10 +34,10 @@ body{
     }
     60%{
         transform: translate(300px,300px);
-        border-radius: 0;
         background-color: green;
     }
     80%{
+        border-radius: 0;
         transform: translate(-20px,300px) rotate3D(1,1,0,180deg);
         border-radius: 50%;
     }
