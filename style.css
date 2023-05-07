@@ -18,7 +18,7 @@ body{
 }
 #circle-moraraba:hover{
     animation-name: ye-top-darm;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -31,15 +31,22 @@ body{
     40%{
         transform: translateX(300px);
         border-radius: 50%;
+        background-color: blue;
     }
     60%{
         transform: translate(300px,300px);
         background-color: green;
+        border-radius: 0;
     }
     80%{
+        transform: translate(-20px,300px) rotate3D(1,1,0,360deg);
         border-radius: 0;
-        transform: translate(-20px,300px) rotate3D(1,1,0,180deg);
+        background-color: green;
+    }
+    85%{
+        transform: translate(-20px,300px);
         border-radius: 50%;
+        background-color: yellow;
     }
 
 }
